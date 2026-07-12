@@ -1,11 +1,11 @@
 <div align="center">
 
-# ✦ Nimbo
+# ✦ WEBOS
 
 **A web operating system with an AI kernel — no backend, no build step, no install.**
 
 Runs entirely in your browser. Files live in IndexedDB. Settings live in `localStorage`.
-The "kernel" is an LLM you point at Ollama, LM Studio, OpenAI, Anthropic, Gemini, or Groq.
+The "kernel" is an LLM you point at Ollama, LM Studio, OpenAI, Anthropic, Gemini, or GroK.
 
 [![License](https://img.shields.io/badge/license-custom-blue.svg)](./LICENSE.md)
 [![Deploy](https://img.shields.io/badge/deploy-Cloudflare%20Pages-f38020.svg)](#deploy)
@@ -18,7 +18,7 @@ The "kernel" is an LLM you point at Ollama, LM Studio, OpenAI, Anthropic, Gemini
 
 ## What is this
 
-Nimbo is a desktop environment — windows, a taskbar, a start menu, drag/resize,
+WEBOS is a desktop environment — windows, a taskbar, a start menu, drag/resize,
 a file system, a terminal — built as static HTML/CSS/JS with no server behind it.
 The twist: an AI provider is wired into the OS itself, with real tool-calling access
 to the file system, app launcher, notifications, and even a visible cursor it can
@@ -94,7 +94,7 @@ in dependency order.
 ```bash
 npm install -g wrangler
 wrangler login
-wrangler pages deploy . --project-name=nimbo
+wrangler pages deploy . --project-name=WEBOS
 ```
 </details>
 
@@ -153,7 +153,7 @@ settings from a previous version.
 - **Local LLM endpoints** (`localhost:11434`, `:1234`) only work if the
   *visitor's own machine* is running that server — a static host can't proxy
   into someone's localhost.
-- **The AI's cursor/keyboard tools** only reach Nimbo's own windows. They
+- **The AI's cursor/keyboard tools** only reach WEBOS's own windows. They
   cannot act inside cross-origin iframes (Browser app, website-apps) or touch
   the visitor's actual OS-level input — that's browser sandboxing, not a gap
   to be closed.
