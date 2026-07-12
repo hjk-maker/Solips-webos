@@ -42,7 +42,7 @@ the change.
 
 ## 3. Trademark / Naming (optional — delete if not needed)
 
-This License does not grant permission to use the name "Nimbo" or any
+This License does not grant permission to use the name "Solips-webos" or any
 associated logos to describe, endorse, or promote a modified or redistributed
 version of the Software without prior written permission from the Licensor.
 Forks must be clearly renamed if not officially endorsed.
@@ -63,8 +63,8 @@ SOFTWARE.
 
 - Right now: do basically anything with this version — use it, modify it,
   sell it, build a product on it.
-- Later: the *next* version can ship under stricter terms (paid, API-gated,
+- Later: the *next* version *can* ship under stricter terms (paid, API-gated,
   whatever) — but that doesn't undo anyone's rights to the version they
   already have.
-- Don't use the Nimbo name for your own fork without asking first.
+- Don't use the Solips-webos name for your own fork without asking first.
 - No promises it works; use at your own risk.
