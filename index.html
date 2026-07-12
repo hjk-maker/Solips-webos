@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nimbo</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="boot">
+  <div class="boot-logo"></div>
+  <div class="boot-title">NIMBO</div>
+  <div class="boot-bar"><div class="boot-fill" id="boot-fill"></div></div>
+  <div class="boot-status" id="boot-status"></div>
+</div>
+
+<div id="desktop">
+  <div id="wallpaper"></div>
+  <div id="icons"></div>
+  <div id="workspace"></div>
+  <div id="taskbar">
+    <div id="tb-start">
+      <svg viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" transform="rotate(45 10 10)"/><rect x="7" y="7" width="6" height="6" rx="1" transform="rotate(45 10 10)"/></svg>
+      <span>NIMBO</span>
+    </div>
+    <div id="tb-apps"></div>
+    <div id="tb-tray">
+      <div class="tray-dot" id="ai-dot" title="AI Status"></div>
+    </div>
+    <div id="tb-clock"></div>
+  </div>
+</div>
+
+<div id="start-menu">
+  <div class="sm-search"><input type="text" placeholder="Search apps..." id="sm-search-input"></div>
+  <div class="sm-list" id="sm-list"></div>
+  <div class="sm-footer">
+    <button id="sm-about">About Nimbo</button>
+    <button id="sm-refresh">Refresh</button>
+  </div>
+</div>
+
+<div id="ctx-menu"></div>
+
+<!-- Load order matters: brand config and utilities first, apps next, boot last -->
+<script src="js/config.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/filesystem.js"></script>
+<script src="js/aicore.js"></script>
+<script src="js/network.js"></script>
+<script src="js/notifications.js"></script>
+<script src="js/appregistry.js"></script>
+<script src="js/store.js"></script>
+<script src="js/fileassoc.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/integrations.js"></script>
+<script src="js/windowmanager.js"></script>
+<script src="js/apps-core.js"></script>
+<script src="js/apps-extra.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

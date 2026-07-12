@@ -1,0 +1,13 @@
+{
+  "name": "nimbo",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Nimbo — AI-kernel web operating system, static build for Cloudflare Pages",
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name=nimbo"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
