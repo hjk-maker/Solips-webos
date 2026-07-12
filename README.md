@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ WEBOS
+# ✦ Solips webos
 
 **A web operating system with an AI kernel — no backend, no build step, no install.**
 
@@ -18,7 +18,7 @@ The "kernel" is an LLM you point at Ollama, LM Studio, OpenAI, Anthropic, Gemini
 
 ## What is this
 
-WEBOS is a desktop environment — windows, a taskbar, a start menu, drag/resize,
+Solips webos is a desktop environment — windows, a taskbar, a start menu, drag/resize,
 a file system, a terminal — built as static HTML/CSS/JS with no server behind it.
 The twist: an AI provider is wired into the OS itself, with real tool-calling access
 to the file system, app launcher, notifications, and even a visible cursor it can
@@ -69,8 +69,7 @@ Open `index.html`. That's the whole install process.
 ## Quick start
 
 ```bash
-git clone <this-repo>
-cd nimbo
+git clone https://github.com/hjk-maker/Webos.git
 # that's it — open index.html in a browser
 ```
 
@@ -94,7 +93,7 @@ in dependency order.
 ```bash
 npm install -g wrangler
 wrangler login
-wrangler pages deploy . --project-name=WEBOS
+wrangler pages deploy . --project-name=Solips webos
 ```
 </details>
 
