@@ -10,5 +10,5 @@
    — if you rename OS_NAME next month, nobody's saved files, settings, or
    custom apps disappear because a storage key changed underneath them.
 */
-const OS_NAME = 'Nimbo';
+const OS_NAME = 'Solips-webos';
 const OS_TAGLINE = 'A web OS with an AI kernel';
