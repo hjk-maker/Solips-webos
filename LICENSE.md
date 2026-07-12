@@ -1,6 +1,6 @@
-# Nimbo License v1.0 ("Current Version")
+Solips-webos License v1.0 ("Current Version")
 
-Copyright (c) 2026 [Your Name / Entity]
+Copyright (c) 2026 hjk-maker
 
 ## 1. Grant
 
