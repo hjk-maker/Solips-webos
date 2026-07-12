@@ -69,7 +69,8 @@ Open `index.html`. That's the whole install process.
 ## Quick start
 
 ```bash
-git clone https://github.com/hjk-maker/Webos.git
+git clone https://github.com/hjk-maker/Solips-webos.git
+cd Solips-webos
 # that's it — open index.html in a browser
 ```
 
@@ -93,7 +94,7 @@ in dependency order.
 ```bash
 npm install -g wrangler
 wrangler login
-wrangler pages deploy . --project-name=Solips webos
+wrangler pages deploy . --project-name=Solipswebos
 ```
 </details>
 
