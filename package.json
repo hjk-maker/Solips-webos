@@ -1,0 +1,13 @@
+{
+  "name": "solips-webos",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Solips-webos — AI-kernel web operating system, static build for Cloudflare Pages",
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name=solips-webos"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
