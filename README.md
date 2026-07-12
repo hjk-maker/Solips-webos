@@ -5,7 +5,7 @@
 **A web operating system with an AI kernel — no backend, no build step, no install.**
 
 Runs entirely in your browser. Files live in IndexedDB. Settings live in `localStorage`.
-The "kernel" is an LLM you point at Ollama, LM Studio, OpenAI, Anthropic, Gemini, or Groq.
+The "kernel" is an LLM you point at Ollama, LM Studio, OpenAI, Anthropic, Gemini, or Grok.
 
 [![License](https://img.shields.io/badge/license-custom-blue.svg)](./LICENSE.md)
 [![Deploy](https://img.shields.io/badge/deploy-Cloudflare%20Pages-f38020.svg)](#deploy)
