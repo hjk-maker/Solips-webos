@@ -40,7 +40,7 @@ The Licensor is under no obligation to continue releasing new versions under
 License v1.0, to provide advance notice of a license change, or to justify
 the change.
 
-## 3. Trademark / Naming (optional — delete if not needed)
+## 3. Trademark / Naming
 
 This License does not grant permission to use the name "Solips-webos" or any
 associated logos to describe, endorse, or promote a modified or redistributed
